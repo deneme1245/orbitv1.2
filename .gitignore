@@ -1,0 +1,23 @@
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*_autosave-*
+*.lck
+fp-info-cache
+.history/
+.history/
+Orbit Mini Mainboard-backups/
+OrbitMiniMainboard-backups/
+.history/
+*.lck
+Orbit Mini Mainboard-backups/
+.history/
+*.lck
+*.lck
+*-backups/
+.history/
+.history/
+*-backups/
+*.lck
+~*.lck

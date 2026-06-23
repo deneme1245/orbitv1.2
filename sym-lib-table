@@ -1,0 +1,5 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "CM5_Module") (type "KiCad") (uri "${KIPRJMOD}/Custom_Libs/CM5IO.kicad_sym") (options "") (descr ""))
+	(lib (name "JLSC") (type "KiCad") (uri "${KIPRJMOD}/EasyEDA.kicad_sym") (options "") (descr ""))
+)
