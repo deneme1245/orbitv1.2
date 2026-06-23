@@ -1,10 +1,12 @@
 {
   "board": {
-    "active_layer": 6,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
-    "hidden_nets": [],
+    "hidden_nets": [
+      "GND"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -21,7 +23,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -46,12 +48,11 @@
       "zones",
       "drc_warnings",
       "drc_exclusions",
-      "locked_item_shadows",
       "conflict_shadows",
       "shapes",
-      "board_outline_area"
+      "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff7_77ffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffff75_57f5ff7f",
     "zone_display_mode": 0
   },
   "git": {
@@ -98,20 +99,20 @@
       13
     ],
     "col_widths": [
-      163,
-      148,
-      98,
-      79,
-      91,
-      99,
-      91,
-      83,
-      91,
-      91,
-      91,
-      91,
-      91,
-      91
+      130,
+      118,
+      82,
+      67,
+      73,
+      84,
+      73,
+      71,
+      73,
+      73,
+      73,
+      73,
+      73,
+      73
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

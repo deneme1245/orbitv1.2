@@ -5712,221 +5712,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLSC:RVT1E101M0607"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RVT1E101M0607"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "EasyEDA:CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-R-RD"
-				(at 0 -11.43 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_100uF-25V_C3338.html"
-				(at 0 -13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "100uF 25V"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "HONOR(荣誉)"
-				(at 0 -16.51 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RVT1E101M0607"
-				(at 0 -19.05 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C3338"
-				(at 0 -21.59 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Aluminum Electrolytic Capacitors - SMD"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RVT1E101M0607_0_1"
-				(arc
-					(start -1.83 -1.21)
-					(mid 0.09 -0.51)
-					(end 1.95 -1.33)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.51) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.76 2.54) (xy 0.76 1.52)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.03) (xy 0.25 2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.03 0.51) (xy -2.03 0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "JLSC:SHV2920P500-30-AA"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8180,12 +7965,6 @@
 		(uuid "61ee3b4a-eb32-42ab-b620-4cca4732f6f2")
 	)
 	(junction
-		(at 58.42 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "661170b0-7406-4246-8ece-c25b8fac256f")
-	)
-	(junction
 		(at 252.73 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8358,12 +8137,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf7fa521-f50b-4c4b-aa8e-bae39ee6f1b4")
-	)
-	(junction
-		(at 256.54 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0e4d6d6-782e-4952-817a-9628909a77b6")
 	)
 	(junction
 		(at 199.39 63.5)
@@ -8813,7 +8586,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 95.25) (xy 213.36 95.25)
+			(xy 204.47 95.25) (xy 220.98 95.25)
 		)
 		(stroke
 			(width 0)
@@ -9160,16 +8933,6 @@
 			(type default)
 		)
 		(uuid "2abcbfba-ba7f-43e1-8b96-b8ac09f2e901")
-	)
-	(wire
-		(pts
-			(xy 266.7 38.1) (xy 266.7 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2afc3dcf-23eb-445f-a4e4-857e5deeab2c")
 	)
 	(wire
 		(pts
@@ -9883,16 +9646,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 29.21) (xy 24.13 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57ec7f9d-3f59-4302-a3b6-836a5bfa24ae")
-	)
-	(wire
-		(pts
 			(xy 191.77 142.24) (xy 180.34 142.24)
 		)
 		(stroke
@@ -9940,6 +9693,16 @@
 			(type default)
 		)
 		(uuid "59ef91dc-0e57-4612-b78f-cfa83ed0e876")
+	)
+	(wire
+		(pts
+			(xy 238.76 95.25) (xy 238.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad74e1c-4942-4dba-85a7-31f1ad9efbae")
 	)
 	(wire
 		(pts
@@ -10123,16 +9886,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 30.48) (xy 266.7 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "630d4703-e988-4029-aeba-b909412394c3")
-	)
-	(wire
-		(pts
 			(xy 52.07 152.4) (xy 64.77 152.4)
 		)
 		(stroke
@@ -10170,16 +9923,6 @@
 			(type default)
 		)
 		(uuid "65154572-b680-4c48-afe0-aca2c5f7a556")
-	)
-	(wire
-		(pts
-			(xy 124.46 132.08) (xy 124.46 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65233b47-82f0-45e0-9d5f-0ef688597665")
 	)
 	(wire
 		(pts
@@ -10320,16 +10063,6 @@
 			(type default)
 		)
 		(uuid "6cf5c20d-401d-47af-b45a-98f4af91cfd3")
-	)
-	(wire
-		(pts
-			(xy 213.36 95.25) (xy 213.36 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d98e73d-a415-42f1-bca7-4ea09afade7f")
 	)
 	(wire
 		(pts
@@ -10513,16 +10246,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 104.14) (xy 242.57 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78f84b96-340a-4ea0-9e2b-c1f3e6c9eb71")
-	)
-	(wire
-		(pts
 			(xy 66.04 48.26) (xy 66.04 49.53)
 		)
 		(stroke
@@ -10530,16 +10253,6 @@
 			(type default)
 		)
 		(uuid "793d4568-44c3-4b2b-8933-574b8781dd11")
-	)
-	(wire
-		(pts
-			(xy 256.54 57.15) (xy 260.35 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "794df5b7-a871-4230-9efa-bc37260d1bd2")
 	)
 	(wire
 		(pts
@@ -11443,16 +11156,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 27.94) (xy 256.54 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abc76202-e86d-4329-bb5e-77f6060043fc")
-	)
-	(wire
-		(pts
 			(xy 109.22 233.68) (xy 109.22 242.57)
 		)
 		(stroke
@@ -11610,16 +11313,6 @@
 			(type dash)
 		)
 		(uuid "b5d15236-b9bd-4a3d-bccb-30a577588a67")
-	)
-	(wire
-		(pts
-			(xy 58.42 85.09) (xy 63.5 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b80c35af-abf3-45a1-a991-c5ea6abe71ce")
 	)
 	(wire
 		(pts
@@ -11873,6 +11566,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 95.25) (xy 238.76 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47fc8b4-832a-4f27-8100-515551ed806d")
+	)
+	(wire
+		(pts
 			(xy 223.52 67.31) (xy 229.87 67.31)
 		)
 		(stroke
@@ -12073,7 +11776,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 57.15) (xy 256.54 57.15)
+			(xy 252.73 57.15) (xy 260.35 57.15)
 		)
 		(stroke
 			(width 0)
@@ -12100,16 +11803,6 @@
 			(type default)
 		)
 		(uuid "d4020366-5865-452f-9f57-3396cf55d13d")
-	)
-	(wire
-		(pts
-			(xy 242.57 104.14) (xy 242.57 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d48ae172-a76e-4abf-a0d4-444d4c1252e1")
 	)
 	(wire
 		(pts
@@ -12180,16 +11873,6 @@
 			(type default)
 		)
 		(uuid "d8503b69-f2e6-49dc-b0a0-7cd2c896d1ce")
-	)
-	(wire
-		(pts
-			(xy 266.7 27.94) (xy 256.54 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d860b3e9-c87d-4735-af50-dd64d1cf4e5e")
 	)
 	(wire
 		(pts
@@ -12563,16 +12246,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 77.47) (xy 58.42 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec9ef274-6d9a-4116-aefb-958bba7ed69b")
-	)
-	(wire
-		(pts
 			(xy 41.91 90.17) (xy 29.21 90.17)
 		)
 		(stroke
@@ -12713,16 +12386,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 104.14) (xy 228.6 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6082217-a299-41ac-aa87-01f92b928c79")
-	)
-	(wire
-		(pts
 			(xy 199.39 62.23) (xy 199.39 63.5)
 		)
 		(stroke
@@ -12773,7 +12436,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 85.09) (xy 58.42 85.09)
+			(xy 57.15 85.09) (xy 63.5 85.09)
 		)
 		(stroke
 			(width 0)
@@ -14799,6 +14462,120 @@
 		)
 	)
 	(symbol
+		(lib_id "JLSC:0603WAF1002T5E")
+		(at 132.08 254 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "10593171-5fa3-4e99-8d9d-d5442203e6de")
+		(property "Reference" "R46"
+			(at 133.604 252.7299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 133.604 255.2699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:R0603"
+			(at 124.46 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
+			(at 121.92 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10KΩ (1002) ±1%"
+			(at 132.08 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 119.38 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 116.84 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25804"
+			(at 114.3 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "96409cfd-9f18-4ae1-aa24-0e024a1a43ce")
+		)
+		(pin "1"
+			(uuid "b9222c44-2aad-4135-ae36-e58c78f98391")
+		)
+		(instances
+			(project "Orbit Mini Mainboard"
+				(path "/3febad84-6a46-4f67-b4f6-fd06fdd71423/c9d5f001-0b8b-4865-8b52-75391c5f367e"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLSC:CL21A106KAYNNNE")
 		(at 124.46 146.05 90)
 		(unit 1)
@@ -15220,7 +14997,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 242.57 109.22 0)
+		(at 238.76 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15230,7 +15007,7 @@
 		(dnp no)
 		(uuid "1f7e7525-e125-4f42-b27c-563b5dfa228a")
 		(property "Reference" "#PWR0187"
-			(at 242.57 115.57 0)
+			(at 238.76 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15241,7 +15018,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 242.697 113.6142 0)
+			(at 238.887 104.7242 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15251,7 +15028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 242.57 109.22 0)
+			(at 238.76 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15262,7 +15039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 242.57 109.22 0)
+			(at 238.76 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15273,7 +15050,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 242.57 109.22 0)
+			(at 238.76 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15523,120 +15300,6 @@
 			(project "Orbit Mini Mainboard"
 				(path "/3febad84-6a46-4f67-b4f6-fd06fdd71423/c9d5f001-0b8b-4865-8b52-75391c5f367e"
 					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLSC:0603WAF1002T5E")
-		(at 132.08 254 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2ce3dbbd-4468-4071-9894-d8b331680061")
-		(property "Reference" "R16"
-			(at 127 252.222 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 127 254 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "fb_2"
-			(at 139.7 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
-			(at 142.24 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10KΩ (1002) ±1%"
-			(at 132.08 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 144.78 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "0603WAF1002T5E"
-			(at 147.32 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25804"
-			(at 149.86 254 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "aa2cc8f5-dce6-416b-9103-814a22ad0519")
-		)
-		(pin "1"
-			(uuid "38a576c7-c393-461c-a119-1acf6021549d")
-		)
-		(instances
-			(project "Orbit Mini Mainboard"
-				(path "/3febad84-6a46-4f67-b4f6-fd06fdd71423/c9d5f001-0b8b-4865-8b52-75391c5f367e"
-					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -19236,85 +18899,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 124.46 132.08 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75381471-6887-494c-8a23-6b621b5614c3")
-		(property "Reference" "TP4"
-			(at 127 127.5079 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3V_AON Test Point"
-			(at 127 130.0479 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 129.54 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 124.46 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "adb7971c-ad99-4584-b1dd-7fef7c80abe2")
-		)
-		(instances
-			(project "Orbit Mini Mainboard"
-				(path "/3febad84-6a46-4f67-b4f6-fd06fdd71423/c9d5f001-0b8b-4865-8b52-75391c5f367e"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "JLSC:0603WAF1002T5E")
 		(at 149.86 245.11 90)
 		(unit 1)
@@ -19535,84 +19119,6 @@
 			(project "Orbit Mini Mainboard"
 				(path "/3febad84-6a46-4f67-b4f6-fd06fdd71423/c9d5f001-0b8b-4865-8b52-75391c5f367e"
 					(reference "C56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 24.13 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7823dbfb-92be-4822-b234-40145f14042a")
-		(property "Reference" "TP6"
-			(at 26.162 25.146 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "V_BUS Test Point"
-			(at 24.384 27.686 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 29.21 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 24.13 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "00c5eeea-f343-4b38-b667-dce7fc764f12")
-		)
-		(instances
-			(project "Orbit Mini Mainboard"
-				(path "/3febad84-6a46-4f67-b4f6-fd06fdd71423/c9d5f001-0b8b-4865-8b52-75391c5f367e"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -21642,83 +21148,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 266.7 41.91 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8b87485f-b215-4c0b-8b09-30b3ff5adf2f")
-		(property "Reference" "#PWR0172"
-			(at 266.7 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 266.7 45.466 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 266.7 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a991648c-ec91-41ce-bf6b-2fc75fb9527e")
-		)
-		(instances
-			(project "Orbit Mini Mainboard"
-				(path "/3febad84-6a46-4f67-b4f6-fd06fdd71423/c9d5f001-0b8b-4865-8b52-75391c5f367e"
-					(reference "#PWR0172")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 106.68 80.01 0)
 		(unit 1)
 		(body_style 1)
@@ -21866,118 +21295,6 @@
 			(project "Orbit Mini Mainboard"
 				(path "/3febad84-6a46-4f67-b4f6-fd06fdd71423/c9d5f001-0b8b-4865-8b52-75391c5f367e"
 					(reference "#PWR0185")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLSC:XH-2A")
-		(at 228.6 109.22 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8e44df22-a387-42c3-af53-7d6d8e409eed")
-		(property "Reference" "CN12"
-			(at 223.774 112.014 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XH-2A"
-			(at 225.806 112.014 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA:CONN-TH_XH-2A"
-			(at 238.76 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/XH-Connectors_XH-2A_C20079.html"
-			(at 241.3 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "XH-2A"
-			(at 228.6 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "BOOMELE(博穆精密)"
-			(at 243.84 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "XH-2A"
-			(at 246.38 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C20079"
-			(at 248.92 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2b3abd7b-4681-4195-93fc-5da1d59f6bd4")
-		)
-		(pin "2"
-			(uuid "9c90e31c-3cf0-43f1-864f-167b7873f4a9")
-		)
-		(instances
-			(project "Orbit Mini Mainboard"
-				(path "/3febad84-6a46-4f67-b4f6-fd06fdd71423/c9d5f001-0b8b-4865-8b52-75391c5f367e"
-					(reference "CN12")
 					(unit 1)
 				)
 			)
@@ -25919,121 +25236,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JLSC:RVT1E101M0607")
-		(at 266.7 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d17214cf-46b1-4fd2-8b2f-93fe26976c40")
-		(property "Reference" "C28"
-			(at 270.51 32.4149 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 270.51 34.9549 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EasyEDA:CAP-SMD_BD6.3-L6.6-W6.6-LS7.2-R-RD"
-			(at 266.7 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_100uF-25V_C3338.html"
-			(at 266.7 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "100uF 25V"
-			(at 266.7 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "HONOR(荣誉)"
-			(at 266.7 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RVT1E101M0607"
-			(at 266.7 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C3338"
-			(at 266.7 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7c92fe25-5fd6-448c-a6c3-c5d5e0c0e8cf")
-		)
-		(pin "2"
-			(uuid "13208a3a-7bbd-4d23-9253-fc0cc9c3d413")
-		)
-		(instances
-			(project "Orbit Mini Mainboard"
-				(path "/3febad84-6a46-4f67-b4f6-fd06fdd71423/c9d5f001-0b8b-4865-8b52-75391c5f367e"
-					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 236.22 49.53 0)
 		(unit 1)
@@ -26307,84 +25509,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 58.42 77.47 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d92f6bd5-33e0-47bf-846d-c7e9102d4664")
-		(property "Reference" "TP5"
-			(at 60.452 73.406 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "V_BAT Test Point"
-			(at 58.674 75.946 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 63.5 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 58.42 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4926090f-b904-486b-9e0b-94e044581bc8")
-		)
-		(instances
-			(project "Orbit Mini Mainboard"
-				(path "/3febad84-6a46-4f67-b4f6-fd06fdd71423/c9d5f001-0b8b-4865-8b52-75391c5f367e"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 100.33 105.41 0)
 		(unit 1)
@@ -26645,6 +25769,119 @@
 			(project "Orbit Mini Mainboard"
 				(path "/3febad84-6a46-4f67-b4f6-fd06fdd71423/c9d5f001-0b8b-4865-8b52-75391c5f367e"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLSC:0603WAF1002T5E")
+		(at 226.06 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4192aa5-c84f-482e-86ec-c9598f09c379")
+		(property "Reference" "R45"
+			(at 226.06 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0603WAF1002T5E"
+			(at 226.06 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:R0603"
+			(at 226.06 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_10KR-1002-1_C25804.html"
+			(at 226.06 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10KΩ (1002) ±1%"
+			(at 226.06 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 226.06 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF1002T5E"
+			(at 226.06 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25804"
+			(at 226.06 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6a4e34f6-b4cf-46b6-a0ba-e693ffe6e67f")
+		)
+		(pin "1"
+			(uuid "d16278c2-64a6-495b-a5ec-ae4bbf1d4eae")
+		)
+		(instances
+			(project "Orbit Mini Mainboard"
+				(path "/3febad84-6a46-4f67-b4f6-fd06fdd71423/c9d5f001-0b8b-4865-8b52-75391c5f367e"
+					(reference "R45")
 					(unit 1)
 				)
 			)

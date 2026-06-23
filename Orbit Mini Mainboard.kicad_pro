@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -609,32 +609,8 @@
         "pattern": "*USB2*"
       },
       {
-        "netclass": "HSS_0P40_GND",
-        "pattern": "*DPHY0*"
-      },
-      {
-        "netclass": "HSS_0P40_GND",
-        "pattern": "*DPHY1*"
-      },
-      {
-        "netclass": "HSS_0P40_GND",
-        "pattern": "*PCIE_TX*"
-      },
-      {
-        "netclass": "HSS_0P40_GND",
-        "pattern": "*PCIE_RX*"
-      },
-      {
-        "netclass": "HSS_0P40_GND",
-        "pattern": "*PCIE_CLK*"
-      },
-      {
-        "netclass": "HSS_0P40_GND",
-        "pattern": "*USB2*"
-      },
-      {
-        "netclass": "HSS_0P40_GND",
-        "pattern": "*ESP_USB*"
+        "netclass": "100R",
+        "pattern": "*HDMI"
       }
     ]
   },
@@ -808,7 +784,7 @@
         "uuid": "3febad84-6a46-4f67-b4f6-fd06fdd71423"
       }
     ],
-    "used_designators": "C18,C39,C52,U11-12,L5",
+    "used_designators": "C1,C18,C39,C52,U11-12,#PWR194-195,D3,L5,CN12-13,R27-29,R45-46",
     "variants": []
   },
   "sheets": [
@@ -819,10 +795,6 @@
     [
       "c9d5f001-0b8b-4865-8b52-75391c5f367e",
       "Power Stage"
-    ],
-    [
-      "363af7de-7445-4ec3-88b5-d5e82ad94d39",
-      "PCIe M2"
     ],
     [
       "28613ec4-63ad-492d-9265-484d27a6d3dd",

@@ -256,17 +256,6 @@
 		)
 		(uuid "ea0c6d91-2ce1-49fa-b465-1b08b2b325c2")
 	)
-	(text "Connectors\n------\nM2 MKey"
-		(exclude_from_sim no)
-		(at 51.562 116.078 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3fbb8d18-6019-4c34-8d04-bd977d90be46")
-	)
 	(text "Connectors\n------\nBattery Input\n15V Adapter Input\nBattery NTC\n5V Output"
 		(exclude_from_sim no)
 		(at 52.07 56.642 0)
@@ -319,16 +308,6 @@
 			(type default)
 		)
 		(uuid "05313738-f149-46de-88dc-6444c3bd482f")
-	)
-	(wire
-		(pts
-			(xy 86.36 116.84) (xy 101.6 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a09e26d-c1d9-4fee-8744-f1a687d4117b")
 	)
 	(wire
 		(pts
@@ -432,16 +411,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 138.43) (xy 101.6 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5038f72f-c1d5-49cb-8305-ea2b61cce758")
-	)
-	(wire
-		(pts
 			(xy 86.36 66.04) (xy 101.6 66.04)
 		)
 		(stroke
@@ -449,26 +418,6 @@
 			(type default)
 		)
 		(uuid "5e041c81-4afb-478f-9279-f9413eb4fd65")
-	)
-	(wire
-		(pts
-			(xy 86.36 134.62) (xy 101.6 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6189dd11-2d53-41cb-b785-ce02b6435bfc")
-	)
-	(wire
-		(pts
-			(xy 86.36 140.97) (xy 101.6 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61db8597-cd8c-4e57-b256-8aaa64509d12")
 	)
 	(wire
 		(pts
@@ -492,16 +441,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 129.54) (xy 101.6 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d79a13c-7dca-42d8-b683-eb2ef5539cb6")
-	)
-	(wire
-		(pts
 			(xy 86.36 58.42) (xy 101.6 58.42)
 		)
 		(stroke
@@ -522,16 +461,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 119.38) (xy 101.6 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "784f97ce-baf3-469f-be1d-114b54da10c6")
-	)
-	(wire
-		(pts
 			(xy 86.36 90.17) (xy 91.44 90.17)
 		)
 		(stroke
@@ -542,16 +471,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 121.92) (xy 101.6 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "969bae78-235f-49fd-a69f-612a827f9f3d")
-	)
-	(wire
-		(pts
 			(xy 93.98 86.36) (xy 86.36 86.36)
 		)
 		(stroke
@@ -559,26 +478,6 @@
 			(type default)
 		)
 		(uuid "9d8590fc-bf00-40cd-ad72-66738a93cf9d")
-	)
-	(wire
-		(pts
-			(xy 86.36 132.08) (xy 101.6 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae05874d-31e5-4702-b5f9-1a5bb142df37")
-	)
-	(wire
-		(pts
-			(xy 86.36 114.3) (xy 101.6 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3db0952-e48d-4eae-a8e1-302c92eb1fc1")
 	)
 	(wire
 		(pts
@@ -652,16 +551,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 92.71) (xy 68.58 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3af16e8-df27-43a4-8dc0-485590d6355f")
-	)
-	(wire
-		(pts
 			(xy 134.62 92.71) (xy 134.62 105.41)
 		)
 		(stroke
@@ -679,16 +568,6 @@
 			(type default)
 		)
 		(uuid "df6d8209-584d-489a-a21e-174f9b8efc24")
-	)
-	(wire
-		(pts
-			(xy 86.36 127) (xy 101.6 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5a849e2-5dca-4c93-8bc5-38f28f840128")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -1502,163 +1381,6 @@
 		)
 	)
 	(sheet
-		(at 49.53 105.41)
-		(size 36.83 57.15)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "363af7de-7445-4ec3-88b5-d5e82ad94d39")
-		(property "Sheetname" "PCIe M2"
-			(at 49.53 104.3174 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.032 2.032)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "pciem2.kicad_sch"
-			(at 49.53 163.1446 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "PCIE_nRST" input
-			(at 86.36 134.62 0)
-			(uuid "a102695b-448b-4dfb-8d5f-6fa11bf9c561")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_nCLKREQ" output
-			(at 86.36 132.08 0)
-			(uuid "46c86cfd-c9c9-45da-926d-2c74b8a4c16a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_nWAKE" output
-			(at 86.36 129.54 0)
-			(uuid "ca0f3c5b-e921-45d4-a1d7-29df8fe5c354")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_RX_N" output
-			(at 86.36 116.84 0)
-			(uuid "edc1f985-1401-450f-ad17-8918459702ea")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_RX_P" output
-			(at 86.36 114.3 0)
-			(uuid "f1bdd217-dade-4e73-856a-a56cca31a423")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_TX_N" output
-			(at 86.36 121.92 0)
-			(uuid "8c68ba76-6dcf-4fba-919d-6951c092b336")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_TX_P" input
-			(at 86.36 119.38 0)
-			(uuid "ace5e467-4a5a-4115-b3a9-50f4e507a1a0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "5V" input
-			(at 68.58 105.41 90)
-			(uuid "69063944-25f2-49c1-88f7-f23a633800aa")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_PWR_EN" input
-			(at 86.36 127 0)
-			(uuid "7c76cd4b-531e-40f2-8c7a-8e2017ba0ead")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_CLK_P" input
-			(at 86.36 138.43 0)
-			(uuid "753c9419-df24-4d98-88ce-ff4f8139f939")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PCIE_CLK_N" input
-			(at 86.36 140.97 0)
-			(uuid "f0107a81-3223-4b05-afbb-1dd1ed2c3115")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "OrbitMiniMainboard"
-				(path "/8bd9d860-d83b-4585-a419-5f6118f3fcdc"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 101.6 105.41)
 		(size 36.83 57.15)
 		(exclude_from_sim no)
@@ -1704,106 +1426,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "PCIE_RX_P" input
-			(at 101.6 114.3 180)
-			(uuid "c6154c83-e72e-44df-8d84-79755a09a244")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PCIE_TX_P" output
-			(at 101.6 119.38 180)
-			(uuid "d159a315-6fcc-4113-840e-0080fdbc1e4b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PCIE_RX_N" input
-			(at 101.6 116.84 180)
-			(uuid "c4b5a679-bd8f-449d-b086-38b2fbc93d58")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PCIE_CLK_P" output
-			(at 101.6 138.43 180)
-			(uuid "aa1ec5ef-5439-45f0-8f39-e33f06e3e070")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PCIE_nCLKREQ" input
-			(at 101.6 132.08 180)
-			(uuid "591c23e5-03ac-497c-aba1-c9ae2c7fffa5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PCIE_CLK_N" output
-			(at 101.6 140.97 180)
-			(uuid "a259a8f0-2d0f-4a85-866d-9e0cdc832480")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PCIE_PWR_EN" output
-			(at 101.6 127 180)
-			(uuid "6d16716f-73c4-43a3-8cb2-2cbcfff8eb93")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PCIE_nWAKE" input
-			(at 101.6 129.54 180)
-			(uuid "5966ee7a-be2f-4933-8f79-9505ace13c51")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PCIE_nRST" output
-			(at 101.6 134.62 180)
-			(uuid "13b5338b-9e14-49e9-a6bb-6bebc1340a10")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PCIE_TX_N" output
-			(at 101.6 121.92 180)
-			(uuid "da1b904b-86c6-418b-aaa9-ba2143ea028b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "5V" input
@@ -1910,16 +1532,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "5V" output
-			(at 68.58 92.71 270)
-			(uuid "a124c752-aa64-4b54-a5e9-77d5f79ecd69")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "5V" output

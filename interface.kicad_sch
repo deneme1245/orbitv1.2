@@ -6044,7 +6044,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 248.92) (xy 116.84 251.46)
+			(xy 113.03 248.92) (xy 113.03 251.46)
 		)
 		(stroke
 			(width 0)
@@ -6134,7 +6134,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 238.76) (xy 120.65 238.76)
+			(xy 99.06 238.76) (xy 116.84 238.76)
 		)
 		(stroke
 			(width 0)
@@ -6314,7 +6314,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 241.3) (xy 120.65 241.3)
+			(xy 110.49 241.3) (xy 116.84 241.3)
 		)
 		(stroke
 			(width 0)
@@ -6334,7 +6334,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 246.38) (xy 104.14 246.38)
+			(xy 82.55 246.38) (xy 100.33 246.38)
 		)
 		(stroke
 			(width 0)
@@ -6474,7 +6474,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 236.22) (xy 120.65 236.22)
+			(xy 99.06 236.22) (xy 116.84 236.22)
 		)
 		(stroke
 			(width 0)
@@ -6914,7 +6914,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 243.84) (xy 104.14 243.84)
+			(xy 82.55 243.84) (xy 100.33 243.84)
 		)
 		(stroke
 			(width 0)
@@ -7224,7 +7224,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 243.84) (xy 120.65 243.84)
+			(xy 110.49 243.84) (xy 116.84 243.84)
 		)
 		(stroke
 			(width 0)
@@ -7664,7 +7664,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 248.92) (xy 120.65 248.92)
+			(xy 113.03 248.92) (xy 116.84 248.92)
 		)
 		(stroke
 			(width 0)
@@ -7794,7 +7794,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 241.3) (xy 104.14 241.3)
+			(xy 82.55 241.3) (xy 100.33 241.3)
 		)
 		(stroke
 			(width 0)
@@ -7954,7 +7954,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 233.68) (xy 120.65 233.68)
+			(xy 99.06 233.68) (xy 116.84 233.68)
 		)
 		(stroke
 			(width 0)
@@ -8124,7 +8124,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 231.14) (xy 120.65 231.14)
+			(xy 99.06 231.14) (xy 116.84 231.14)
 		)
 		(stroke
 			(width 0)
@@ -8554,7 +8554,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 246.38) (xy 120.65 246.38)
+			(xy 110.49 246.38) (xy 116.84 246.38)
 		)
 		(stroke
 			(width 0)
@@ -9243,7 +9243,7 @@
 		(uuid "21a3e20a-f4e5-4f83-af9f-2532568bfd1d")
 	)
 	(label "RED_PWM_GPIO"
-		(at 86.36 241.3 0)
+		(at 82.55 241.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9383,7 +9383,7 @@
 		(uuid "458b90ef-9222-4a14-82b6-0a1309db01fd")
 	)
 	(label "VOL_UP_BTN"
-		(at 102.87 238.76 0)
+		(at 99.06 238.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9493,7 +9493,7 @@
 		(uuid "647eaa56-d7c3-4900-8b85-48a74d9fc709")
 	)
 	(label "VOL_DOWN_BTN"
-		(at 102.87 236.22 0)
+		(at 99.06 236.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9743,7 +9743,7 @@
 		(uuid "9f0acb03-c324-4850-892b-788b35f5ba58")
 	)
 	(label "GREEN_PWM_GPIO"
-		(at 86.36 243.84 0)
+		(at 82.55 243.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9823,7 +9823,7 @@
 		(uuid "b5662d91-bfb1-4232-8fda-3ca9db76c41f")
 	)
 	(label "MUTE_BTN"
-		(at 102.87 233.68 0)
+		(at 99.06 233.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9933,7 +9933,7 @@
 		(uuid "cfd03012-ab7a-4b7d-b9cc-7f273ba3f81a")
 	)
 	(label "BLUE_PWM_GPIO"
-		(at 86.36 246.38 0)
+		(at 82.55 246.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10033,7 +10033,7 @@
 		(uuid "ecd296c1-2ca3-4e8a-8770-06208d9d649f")
 	)
 	(label "ON{slash}OFF_BTN"
-		(at 102.87 231.14 0)
+		(at 99.06 231.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11302,7 +11302,7 @@
 	)
 	(symbol
 		(lib_id "JLSC:0603WAF1500T5E")
-		(at 109.22 241.3 180)
+		(at 105.41 241.3 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11312,7 +11312,7 @@
 		(dnp no)
 		(uuid "225500dc-38ea-4028-aad9-91921bf47b80")
 		(property "Reference" "R76"
-			(at 109.22 239.776 0)
+			(at 105.41 239.776 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11322,7 +11322,7 @@
 			)
 		)
 		(property "Value" "0603WAF1500T5E"
-			(at 109.22 245.11 0)
+			(at 105.41 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11333,7 +11333,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 109.22 233.68 0)
+			(at 105.41 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11344,7 +11344,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_150R-1500-1_C22808.html"
-			(at 109.22 231.14 0)
+			(at 105.41 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11355,7 +11355,7 @@
 			)
 		)
 		(property "Description" "150Ω (1500) ±1%"
-			(at 109.22 241.3 0)
+			(at 105.41 241.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11366,7 +11366,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 109.22 228.6 0)
+			(at 105.41 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11377,7 +11377,7 @@
 			)
 		)
 		(property "MPN" "0603WAF1500T5E"
-			(at 109.22 226.06 0)
+			(at 105.41 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11388,7 +11388,7 @@
 			)
 		)
 		(property "LCSC Part" "C22808"
-			(at 109.22 223.52 0)
+			(at 105.41 223.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11527,7 +11527,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 251.46 0)
+		(at 113.03 251.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11537,7 +11537,7 @@
 		(dnp no)
 		(uuid "2a32ea83-460f-438f-9adf-44713d215e91")
 		(property "Reference" "#PWR0162"
-			(at 116.84 257.81 0)
+			(at 113.03 257.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11548,7 +11548,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.967 255.8542 0)
+			(at 113.157 255.8542 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11558,7 +11558,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 251.46 0)
+			(at 113.03 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11569,7 +11569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 251.46 0)
+			(at 113.03 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11580,7 +11580,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 251.46 0)
+			(at 113.03 251.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12140,7 +12140,7 @@
 	)
 	(symbol
 		(lib_id "JLSC:A1251WV-8P")
-		(at 124.46 240.03 270)
+		(at 120.65 240.03 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -12151,7 +12151,7 @@
 		(dnp no)
 		(uuid "3bee979c-c713-4a90-b720-12cab44e3f91")
 		(property "Reference" "CN1"
-			(at 129.54 241.3001 90)
+			(at 125.73 241.3001 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12162,7 +12162,7 @@
 			)
 		)
 		(property "Value" "A1251WV-8P"
-			(at 129.54 238.7601 90)
+			(at 125.73 238.7601 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12173,7 +12173,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:CONN-TH_8P-P1.25_A1251WV-8P"
-			(at 113.03 240.03 0)
+			(at 109.22 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12184,7 +12184,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Connectors_Changjiang-Connectors-A1251WV-8P_C225096.html"
-			(at 110.49 240.03 0)
+			(at 106.68 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12195,7 +12195,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 240.03 0)
+			(at 120.65 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12206,7 +12206,7 @@
 			)
 		)
 		(property "Manufacturer" "CJT(长江连接器)"
-			(at 107.95 240.03 0)
+			(at 104.14 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12217,7 +12217,7 @@
 			)
 		)
 		(property "MPN" "A1251WV-8P"
-			(at 105.41 240.03 0)
+			(at 101.6 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12228,7 +12228,7 @@
 			)
 		)
 		(property "LCSC Part" "C225096"
-			(at 102.87 240.03 0)
+			(at 99.06 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14514,7 +14514,7 @@
 	)
 	(symbol
 		(lib_id "JLSC:0603WAF1500T5E")
-		(at 109.22 243.84 180)
+		(at 105.41 243.84 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14524,7 +14524,7 @@
 		(dnp no)
 		(uuid "910c21fd-bed7-480f-b901-bc8f17066036")
 		(property "Reference" "R77"
-			(at 109.22 242.824 0)
+			(at 105.41 242.824 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14534,7 +14534,7 @@
 			)
 		)
 		(property "Value" "0603WAF1500T5E"
-			(at 109.22 247.65 0)
+			(at 105.41 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14545,7 +14545,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 109.22 236.22 0)
+			(at 105.41 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14556,7 +14556,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_150R-1500-1_C22808.html"
-			(at 109.22 233.68 0)
+			(at 105.41 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14567,7 +14567,7 @@
 			)
 		)
 		(property "Description" "150Ω (1500) ±1%"
-			(at 109.22 243.84 0)
+			(at 105.41 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14578,7 +14578,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 109.22 231.14 0)
+			(at 105.41 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14589,7 +14589,7 @@
 			)
 		)
 		(property "MPN" "0603WAF1500T5E"
-			(at 109.22 228.6 0)
+			(at 105.41 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14600,7 +14600,7 @@
 			)
 		)
 		(property "LCSC Part" "C22808"
-			(at 109.22 226.06 0)
+			(at 105.41 226.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14893,7 +14893,7 @@
 	)
 	(symbol
 		(lib_id "JLSC:0603WAF3300T5E")
-		(at 109.22 246.38 180)
+		(at 105.41 246.38 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14903,7 +14903,7 @@
 		(dnp no)
 		(uuid "96890261-3085-403d-a588-eca8c0abfb78")
 		(property "Reference" "R78"
-			(at 109.22 244.856 0)
+			(at 105.41 244.856 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14913,7 +14913,7 @@
 			)
 		)
 		(property "Value" "0603WAF3300T5E"
-			(at 109.22 250.19 0)
+			(at 105.41 250.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14924,7 +14924,7 @@
 			)
 		)
 		(property "Footprint" "EasyEDA:R0603"
-			(at 109.22 238.76 0)
+			(at 105.41 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14935,7 +14935,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_330R-3300-1_C23138.html"
-			(at 109.22 236.22 0)
+			(at 105.41 236.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14946,7 +14946,7 @@
 			)
 		)
 		(property "Description" "330Ω (3300) ±1%"
-			(at 109.22 246.38 0)
+			(at 105.41 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14957,7 +14957,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 109.22 233.68 0)
+			(at 105.41 233.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14968,7 +14968,7 @@
 			)
 		)
 		(property "MPN" "0603WAF3300T5E"
-			(at 109.22 231.14 0)
+			(at 105.41 231.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14979,7 +14979,7 @@
 			)
 		)
 		(property "LCSC Part" "C23138"
-			(at 109.22 228.6 0)
+			(at 105.41 228.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
