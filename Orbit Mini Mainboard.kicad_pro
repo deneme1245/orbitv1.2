@@ -144,8 +144,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.45,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.35,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -769,7 +769,7 @@
         "uuid": "3febad84-6a46-4f67-b4f6-fd06fdd71423"
       }
     ],
-    "used_designators": "USB1-3,#PWR199-201",
+    "used_designators": "D3",
     "variants": []
   },
   "sheets": [

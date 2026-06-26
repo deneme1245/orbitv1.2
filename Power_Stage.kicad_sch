@@ -6045,7 +6045,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "JLSC:SMBJ13A_C188307"
+		(symbol "JLSC:SMBJ14A_C353392"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6061,7 +6061,7 @@
 					)
 				)
 			)
-			(property "Value" "SMBJ13A_C188307"
+			(property "Value" "SMBJ14A_C353392"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6071,7 +6071,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:SMB_L4.6-W3.6-LS5.3-RD"
+			(property "Footprint" "EasyEDA:SMB_L4.4-W3.6-LS5.3-RD"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6082,7 +6082,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://lcsc.com/product-detail/TVS_SMBJ13A_C188307.html"
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_Shandong-Jingdao-Microelectronics-SMBJ14A_C353392.html"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6093,7 +6093,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "SMBJ series 600W 14V Uni-directional SMD TVS Diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6104,7 +6104,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "FMS(美丽微)"
+			(property "Manufacturer" "晶导微电子"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6115,7 +6115,7 @@
 					)
 				)
 			)
-			(property "MPN" "SMBJ13A"
+			(property "MPN" "SMBJ14A"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6126,7 +6126,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C188307"
+			(property "LCSC Part" "C353392"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6148,10 +6148,10 @@
 					)
 				)
 			)
-			(symbol "SMBJ13A_C188307_0_1"
+			(symbol "SMBJ14A_C353392_0_1"
 				(polyline
 					(pts
-						(xy -1.78 1.78) (xy -1.78 2.03) (xy -1.27 2.03) (xy -1.27 -2.03) (xy -0.76 -2.03) (xy -0.76 -1.78)
+						(xy -2.29 2.29) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.25 -2.29)
 					)
 					(stroke
 						(width 0)
@@ -6163,7 +6163,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.52) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.52)
+						(xy 1.27 -1.52) (xy -1.27 0) (xy 1.27 1.78) (xy 1.27 -1.52)
 					)
 					(stroke
 						(width 0)
@@ -6176,7 +6176,7 @@
 				(pin unspecified line
 					(at -5.08 0 0)
 					(length 3.81)
-					(name "K"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -16482,6 +16482,120 @@
 		)
 	)
 	(symbol
+		(lib_id "JLSC:SMBJ14A_C353392")
+		(at 71.12 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "48df8614-eeb1-4563-9a6b-1436c3cf13dc")
+		(property "Reference" "D3"
+			(at 74.93 93.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ14A_C353392"
+			(at 50.038 95.504 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SMB_L4.4-W3.6-LS5.3-RD"
+			(at 63.5 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Shandong-Jingdao-Microelectronics-SMBJ14A_C353392.html"
+			(at 60.96 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMBJ series 600W 14V Uni-directional SMD TVS Diode"
+			(at 71.12 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "晶导微电子"
+			(at 58.42 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SMBJ14A"
+			(at 55.88 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C353392"
+			(at 53.34 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f5a444c-26a1-4c06-acc1-bd760634c0cd")
+		)
+		(pin "2"
+			(uuid "1be4d4c7-5159-4d6b-a56a-dadf3246cb4c")
+		)
+		(instances
+			(project "Orbit Mini Mainboard"
+				(path "/3febad84-6a46-4f67-b4f6-fd06fdd71423/c9d5f001-0b8b-4865-8b52-75391c5f367e"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 189.23 223.52 90)
 		(unit 1)
@@ -19478,119 +19592,6 @@
 			(project "Orbit Mini Mainboard"
 				(path "/3febad84-6a46-4f67-b4f6-fd06fdd71423/c9d5f001-0b8b-4865-8b52-75391c5f367e"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "JLSC:SMBJ13A_C188307")
-		(at 71.12 95.25 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b687560-fcc7-4df6-9436-362c09942aca")
-		(property "Reference" "D1"
-			(at 77.47 94.995 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SMBJ13A_C188307"
-			(at 74.93 94.995 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EasyEDA:SMB_L4.6-W3.6-LS5.3-RD"
-			(at 63.5 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/TVS_SMBJ13A_C188307.html"
-			(at 60.96 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 71.12 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "FMS(美丽微)"
-			(at 58.42 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "SMBJ13A"
-			(at 55.88 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C188307"
-			(at 53.34 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "e9f57d93-e2a4-4704-bb33-2c6d03e28f5a")
-		)
-		(pin "1"
-			(uuid "9d793b02-ce06-4b16-98e1-26edd5ef01b9")
-		)
-		(instances
-			(project "Orbit Mini Mainboard"
-				(path "/3febad84-6a46-4f67-b4f6-fd06fdd71423/c9d5f001-0b8b-4865-8b52-75391c5f367e"
-					(reference "D1")
 					(unit 1)
 				)
 			)
