@@ -278,7 +278,7 @@
 		)
 		(uuid "c0476834-bf9d-4195-899f-e672f5999cf4")
 	)
-	(text "Connectors\n------\nCM5\nDSI/CSI\nFan\nSDCARD\nUSB-C\nSpeaker\n"
+	(text "Connectors\n------\nCM5\nDSI/CSI\nFan\nSDCARD\nUSB-C\nSpeaker\nHDMI"
 		(exclude_from_sim no)
 		(at 121.92 141.732 0)
 		(effects

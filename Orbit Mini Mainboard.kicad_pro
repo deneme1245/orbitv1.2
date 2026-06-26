@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.7,
-          "height": 5.4,
-          "width": 5.4
+          "drill": 0.0,
+          "height": 3.0,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -132,7 +132,7 @@
         "max_error": 0.005,
         "min_clearance": 0.2,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -142,10 +142,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.2,
         "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -510,8 +510,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.45,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -520,12 +520,12 @@
         "diff_pair_width": 0.1234,
         "name": "100R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1234,
         "tuning_profile": "",
-        "via_diameter": 0.55,
-        "via_drill": 0.3
+        "via_diameter": 0.45,
+        "via_drill": 0.2
       },
       {
         "clearance": 0.15,
@@ -533,12 +533,12 @@
         "diff_pair_width": 0.2286,
         "name": "100R_IN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2286,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_diameter": 0.45,
+        "via_drill": 0.2
       },
       {
         "clearance": 0.2,
@@ -546,12 +546,12 @@
         "diff_pair_width": 0.1575,
         "name": "90R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1575,
         "tuning_profile": "",
-        "via_diameter": 0.5,
-        "via_drill": 0.3
+        "via_diameter": 0.45,
+        "via_drill": 0.2
       },
       {
         "clearance": 0.15,
@@ -559,19 +559,12 @@
         "diff_pair_width": 0.3175,
         "name": "90R_IN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3175,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "name": "HSS_0P40_GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "tuning_profile": ""
+        "via_diameter": 0.45,
+        "via_drill": 0.2
       }
     ],
     "meta": {
@@ -581,7 +574,7 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "100R_IN",
+        "netclass": "100R",
         "pattern": "*DPHY0*"
       },
       {
@@ -594,23 +587,15 @@
       },
       {
         "netclass": "90R",
-        "pattern": "*PCIE_TX*"
-      },
-      {
-        "netclass": "90R",
-        "pattern": "*PCIE_RX*"
-      },
-      {
-        "netclass": "90R",
-        "pattern": "*PCIE_C*"
-      },
-      {
-        "netclass": "90R",
         "pattern": "*USB2*"
       },
       {
         "netclass": "100R",
-        "pattern": "*HDMI"
+        "pattern": "*HDMI*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": ""
       }
     ]
   },
@@ -784,7 +769,7 @@
         "uuid": "3febad84-6a46-4f67-b4f6-fd06fdd71423"
       }
     ],
-    "used_designators": "C1,C18,C39,C52,U11-12,#PWR194-195,D3,L5,CN12-13,R27-29,R45-46",
+    "used_designators": "USB1-3,#PWR199-201",
     "variants": []
   },
   "sheets": [
